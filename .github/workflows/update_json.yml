@@ -1,8 +1,7 @@
 name: Daily JSON Sync
 
 on:
-  branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   update_json:
