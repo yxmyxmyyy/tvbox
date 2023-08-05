@@ -1,0 +1,24 @@
+name: Daily JSON Sync
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  update_json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Download JSON
+        run: curl -o tvbox.json https://www.xzbgg.top/tvbox.json
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add tvbox.json
+          git commit -m "Update tvbox.json [skip ci]"
+          git push
