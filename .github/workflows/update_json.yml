@@ -14,7 +14,14 @@ jobs:
       - name: Download JSON
         run: curl -o tvbox.json https://www.xzbgg.top/tvbox.json
 
+      - name: Check if JSON has changed
+        id: check_changes
+        run: |
+          git diff --exit-code tvbox.json || echo "::set-output name=has_changes::true"
+        continue-on-error: true
+
       - name: Commit and push changes
+        if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
