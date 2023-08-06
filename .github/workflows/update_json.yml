@@ -1,9 +1,8 @@
-name: Daily JSON Sync
+name: Manual JSON Sync
 
 on:
-  schedule:
-    - cron: "0 0 * * *"
-
+  workflow_dispatch:
+  
 jobs:
   update_json:
     runs-on: ubuntu-latest
