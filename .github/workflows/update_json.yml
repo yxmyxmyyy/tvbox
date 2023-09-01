@@ -1,8 +1,8 @@
 name: Manual JSON Sync
 
-on:
-  schedule:
-    - cron: "0 0 * * *"
+//on:
+//  schedule:
+//    - cron: "0 0 * * *"
   
 jobs:
   update_json:
