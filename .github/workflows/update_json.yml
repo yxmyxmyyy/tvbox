@@ -2,7 +2,7 @@ name: Manual JSON Sync
 
 //on:
 //  schedule:
-//    - cron: "0 0 * * *"
+//    - cron: ""
   
 jobs:
   update_json:
