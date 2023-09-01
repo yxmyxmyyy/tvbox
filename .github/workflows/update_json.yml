@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Download JSON
-        run: curl -o tvbox.json https://xzbgg.rjjjh.com/tvbox.json
+        run: curl -o tvbox.json http://itvbox.cc/可视TV/云星日记/仓库.json
 
       - name: Check if JSON has changed
         id: check_changes
