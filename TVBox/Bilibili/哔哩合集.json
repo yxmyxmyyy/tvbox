@@ -14,6 +14,10 @@
       "type_id": "体育超清"
     },
     {
+      "type_name": "UFC",
+      "type_id": "UFC"
+    },
+    {
       "type_name": "球星",
       "type_id": "球星"
     },
@@ -167,6 +171,27 @@
     //"cookie": "buvid3=0D6727C5-D925-3217-5D1B-01ED81519EEA64005infoc; bsource=search_baidu; _uuid=94BE1F6A-E87F-D8C6-D5B6-26D25F2A9C9165776infoc; buvid4=1E93E940-548A-7DCF-A0E4-36D1EF350BEB64888-122110809-JOyWSaNZfI2qJ9rrY+0DQA%3D%3D; fingerprint=7f0d6de40c936e0a7fcaddcbefabb5fe; buvid_fp_plain=undefined; rpdid=|(u~)Y|~~YkJ0J'uY~k|))Y)); buvid_fp=7f0d6de40c936e0a7fcaddcbefabb5fe; b_nut=100; b_lsid=7B336CCC_188BF254E91; SESSDATA=ce8c2391%2C1702387392%2C89a9b%2A62; bili_jct=b41e0288628b598bd8cd66cda51b6e7c; DedeUserID=108713664; DedeUserID__ckMd5=fa526442d65ce9c4; sid=ebq5gvj7",
   "cookie": "SESSDATA=7624af93%2C1696008331%2C862c8%2A42; bili_jct=141a474ef3ce8cf2fedf384e68f6625d; DedeUserID=3493271303096985; DedeUserID__ckMd5=212a836c164605b7",
  "filter":{
+         "UFC": [
+{"key": "tid","name": "分类","value": [
+{"n": "全部","v": "UFC"},
+{"n": "康纳","v": "康纳"},
+{"n": "李景亮","v": "李景亮"},
+{"n": "骨头","v": "乔恩琼斯"},
+{"n": "狼王","v": "奇马耶夫"},
+{"n": "白大拿","v": "白大拿"},
+{"n": "张伟丽","v": "张伟丽"},
+{"n": "小鹰","v": "UFC小鹰"},
+{"n": "钻石","v": "UFC钻石"},
+{"n": "持续更新","v": "0"}]},
+
+{"key": "duration","name": "时长","value": [
+{"n": "全部时长","v": "0"},
+{"n": "60分钟以上","v": "4"},
+{"n": "30~60分钟","v": "3"},
+{"n": "10~30分钟","v": "2"},
+{"n": "10分钟以下","v": "1"}
+
+]}],
         "儿童": [
 {"key": "order","name": "排序","value": [
 {"n": "综合排序","v": "0"},

@@ -1,5 +1,5 @@
 {
-	"spider": "clan://TVBox/jar/xzy1029.jar",
+	"spider": "http://itvbox.cc/sft/jar/xzy1029.jar;md5;5a3a30123ac5eb236aa3e96a7669442f",
 	"wallpaper": "http://www.kf666888.cn/api/tvbox/img",
 	"lives": [{
 		"group": "redirect",

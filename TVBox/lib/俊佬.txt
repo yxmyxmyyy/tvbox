@@ -1,5 +1,5 @@
 {
-  "spider": "clan://TVBox/jar/xzy1029.jar",
+  "spider": "http://itvbox.cc/sft/jar/xzy1029.jar;md5;5a3a30123ac5eb236aa3e96a7669442f",
   "lives": [
     {
       "group": "redirect",
@@ -42,7 +42,7 @@
        "searchable" : 1,
        "quickSearch" : 1,
        "filterable" : 1,
-       "jar": "clan://TVBox/jar/xzy1029.jar"
+       "jar": "http://itvbox.cc/sft/jar/xzy1029.jar;md5;5a3a30123ac5eb236aa3e96a7669442f"
     },
     {
       "key": "csp_Alist",
@@ -51,7 +51,7 @@
       "api": "csp_Alist",
       "searchable": 0,
       "playerType": 2,
-      "jar":"clan://TVBox/jar/xzy1029.jar",
+      "jar":"http://itvbox.cc/sft/jar/xzy1029.jar;md5;5a3a30123ac5eb236aa3e96a7669442f",
       "quickSearch": 0,
       "filterable": 0,
       "ext": "clan://TVBox/Bilibili/Alist.json"
@@ -67,7 +67,7 @@
       "filterable": 0,
       "ext": "{\n\"分类url\": \"http://www.sharenice.net/{cateId}?page={catePg}\",\n\"分类\": \"抖音$douyin#快手$kuaishou#微视$weishi#场库$changku#美拍$meipai#秒拍$miaopai#全民$quanmin#梨$lishipin#好兔$haotu#开眼$kaiyan\",\n\"链接\": \"http://www.sharenice.net&&\\\"\",\n\"直接播放\": \"1\"\n}"
     },
-    {"key": "csp_xBPQ_在线之家","name": "️在线之家(XBiu)","type": 3,"api": "csp_xBPQ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "clan://TVBox/xBPQ/在线之家xbpq.json","jar":"clan://TVBox/jar/xzy1029.jar"},
+    {"key": "csp_xBPQ_在线之家","name": "️在线之家(XBiu)","type": 3,"api": "csp_xBPQ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "clan://TVBox/xBPQ/在线之家xbpq.json","jar":"http://itvbox.cc/sft/jar/xzy1029.jar;md5;5a3a30123ac5eb236aa3e96a7669442f"},
    {"key": "csp_XYQHiker_农民影视","name": "农民影视(H)", "type": 3, "api": "csp_XYQHiker","searchable": 1,"quickSearch": 1, "filterable": 1, "ext": "clan://TVBox/Hk/XYQHiker/农民影视.json","jar":"clan://TVBox/Hk/Hk.jar"},
 
     {

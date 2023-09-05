@@ -8,6 +8,14 @@
 {"key":"UP云搜","name":"阿里 | UP云搜","type":3,"api":"csp_UpYun","ext":"clan://TVBox/jar/alitoken.txt"},
 {"key":"找資源","name":"阿里 | 找資源","type":3,"api":"csp_Zhaozy","ext":"clan://TVBox/jar/alitoken.txt"},
  
+ 
+ 
+ {"key": "路飞转点播","name": "路飞_MV","type": 3,"api": "https://ghproxy.com/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/lf_live.js","ext": "https://ghproxy.com/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/lf_live.txt","viewType": 2},
+    {"key": "路飞ikanbot","name": "路飞_爱看","type": 3,"api": "https://ghproxy.com/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/ikanbot.js","ext": ""},
+    {"key": "路飞搜索","name": "路飞_搜索","type": 3,"api": "https://ghproxy.com/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/ss.js","ext": ""},
+    {"key": "路飞磁力","name": "路飞_磁力搜","type": 3,"api": "https://ghproxy.com/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/cili.js","ext": "18+"},
+{"key": "路飞搜索2","name": "路飞_搜索","type": 3,"api": "http://w.g9.pub:66/f/yPXXSL/ss.js","ext": ""},
+{"key": "路飞磁力2","name": "路飞_磁力搜","type": 3,"api": "./js/cili.js","ext": "18+"},
 {"key":"drpy_js_Alist","name":"网盘 | Alist","type":3,"api":"./lib/alist.min.js","ext":"./js/alist.json"},
 {"key":"好趣网","name":"电视 | 好趣网","type":3,"api":"./lib/drpy2.min.js","ext":"./js/好趣网.js"},
 {"key":"道长直播2点播","name":"电视 | 直播","type":3,"api":"./lib/live2cms.js","ext":"./lib/live2mv_data.json"},
