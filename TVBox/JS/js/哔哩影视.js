@@ -12,11 +12,10 @@ var rule = {
     headers:{
         'User-Agent':'PC_UA',
         "Referer": "https://www.bilibili.com",
-        "Cookie":"$bili_cookie"
-    },
+        "Cookie":"buvid3=E83FE97F-E09A-8052-C8AB-AA8645E8C25020315infoc; _uuid=92109DC7F-D664-6F1A-B12F-D83B2B24F38822282infoc; buvid4=633FFBB3-3DA9-91E0-961B-DDA2BBD2576D22277-123071813-pBL8cDAn3mm934YsxH6aWFQYBBTSg7XzjKEN1rE0RBnpZ1OseuteHQ%3D%3D; buvid_fp=31c99e6dc2b9f483186a198dbb0f54d1; b_nut=100; SESSDATA=6b94bc64%2C1705210979%2C8e71f%2A71wkQ8KopLRj2rVXUY_A1GgjN6Jw86cL9I-QT85flaRkbdyCV8jsCPZlOpc596QClPhHKVHgAAVQA; bili_jct=5caf078e26d1628fc53d10adb2492cdf; DedeUserID=3536993736722485; DedeUserID__ckMd5=591535420aa41569; sid=gjvbwx6g; b_lsid=6624E979_18969A5FB13"},
     timeout:5000,
-    class_name:'番剧&国创&电影&电视剧&纪录片&综艺&全部&追番&追剧&时间表',
-    class_url:'1&4&2&5&3&7&全部&追番&追剧&时间表',
+    class_name:'电影&电视剧&国创&综艺',
+    class_url:'2&5&4&7&',
     filter:{"全部":[{"key":"tid","name":"分类","value":[{"n":"番剧","v":"1"},{"n":"国创","v":"4"},{"n":"电影","v":"2"},{"n":"电视剧","v":"5"},{"n":"记录片","v":"3"},{"n":"综艺","v":"7"}]},{"key":"order","name":"排序","value":[{"n":"播放数量","v":"2"},{"n":"更新时间","v":"0"},{"n":"最高评分","v":"4"},{"n":"弹幕数量","v":"1"},{"n":"追看人数","v":"3"},{"n":"开播时间","v":"5"},{"n":"上映时间","v":"6"}]},{"key":"season_status","name":"付费","value":[{"n":"全部","v":"-1"},{"n":"免费","v":"1"},{"n":"付费","v":"2%2C6"},{"n":"大会员","v":"4%2C6"}]}],"时间表":[{"key":"tid","name":"分类","value":[{"n":"番剧","v":"1"},{"n":"国创","v":"4"}]}]},
     play_parse:true,
     // play_json:[{re:'*', json:{jx:1, parse:0,header:JSON.stringify({"user-agent":"PC_UA"})}}],

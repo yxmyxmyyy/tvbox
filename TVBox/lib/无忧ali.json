@@ -15,7 +15,7 @@
 //{"key":"csp_MeijuTT","name":"美剧天堂(磁)","type":3,"api":"csp_MeijuTT","searchable":1,"quickSearch":1,"filterable":1,"jar":"clan://TVBox/Hk/Hk.jar"},
 //{"key":"csp_MeijuMi","name":"美剧迷(磁)","type":3,"api":"csp_MeijuMi","searchable":1,"quickSearch":1,"filterable":1,"jar":"clan://TVBox/Hk/Hk.jar"},
 //{"key": "lf_js_p2p","name": "p2p1(磁)","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1, "api": "clan://TVBox/JS/lib/lf_p2p1_2_min.js","ext": ""},
-{"key": "csp_KungFu404","name":"阿里设置","type": 3, "api": "csp_KungFu404", "searchable":1,"filterable": 0, "changeable":0,"jar":"http://itvbox.cc/tvbox/云星日记/jar/alisz.jpg"},
+{"key": "csp_KungFu404","name":"阿里设置","type": 3, "api": "csp_KungFu404", "searchable":1,"filterable": 0, "changeable":0,"jar":"http://shuyuan.miaogongzi.net/shuyuan/1694489884.json"},
 
 {"key":"csp_WoGG","name":"玩偶┃4K","type":3,"api":"csp_WoGG","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"clan://TVBox/jar/alitoken.txt$$$https://wogg.xyz/"},
 {"key":"七夜","name":"七夜 | 搜索","type":3,"api":"csp_Dovx","playerType":2,"searchable":1,"filterable":0,"changeable":0,"ext":"clan://TVBox/jar/alitoken.txt"},

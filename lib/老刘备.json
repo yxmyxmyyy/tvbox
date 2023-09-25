@@ -1,6 +1,8 @@
 {
   "wallpaper": "https://picsum.photos/1280/720/?blur=10",
-  "spider": "http://w.g9.pub:66/f/ADPyfE/%E8%80%81%E5%88%98%E5%A4%870720.jar;md5;09BAF4A03D362D96F0FC14085C343191",
+"spider":"http://itvbox.cc/sft/jar/肥猫0816.jar;md5;f3186f44835cd46ef458744d797bd9cc",
+ //"spider": "http://itvbox.cc/sft/jar/老刘备0816.jar;md5;09BAF4A03D362D96F0FC14085C343191",
+ //"spider":"clan://TVBox/jar/fm.jar",
   "lives": [
     {
       "name": "live",
@@ -12,7 +14,7 @@
     }
   ],
   "sites": [
-   {
+      {
       "key": "csp_CZSPP",
       "name": "🏭厂长资源",
       "type": 3,
@@ -21,7 +23,7 @@
       "quickSearch": 1,
       "filterable": 1
     },
- {"key":"csp_Bdys","name":"🌤哔嘀影视","type":3,"api":"csp_Bdys","searchable":1,"quickSearch":1,"filterable":1,"jar":"clan://TVBox/Hk/Hk.jar"},
+  
     {
       "key": "csp_Kunyu77",
       "name": "🌤酷云七七",
@@ -29,43 +31,15 @@
       "api": "csp_Kunyu77",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "jar":"clan://TVBox/jar/fm.jar"
+      "filterable": 1
     },
-   
-    {
-      "key": "csp_AppTT",
-      "name": "🐰图图影视",
-      "type": 3,
-      "api": "csp_AppTT",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://121.205.88.126:7788"
-    },
+
+
     {
       "key": "csp_Kuaikan",
       "name": "👀快看影视",
       "type": 3,
       "api": "csp_Kuaikan",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_ZJMiao",
-      "name": "🐱追剧喵",
-      "type": 3,
-      "api": "csp_ZJMiao",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_EEEDY",
-      "name": "❄3E飘花",
-      "type": 3,
-      "api": "csp_EEEDY",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -312,6 +286,26 @@
       ]
     },
     {
+      "key": "csp_xbb_影视工厂",
+      "name": "🍀影视工厂",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://raw.liucn.cc/box/sub/MeowXB/影视工厂.json"
+    },
+    {
+      "key": "csp_xbb_555电影",
+      "name": "🍀555影视",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://raw.liucn.cc/box/sub/MeowXB/555电影.json"
+    },
+    {
       "key": "csp_xp_libv",
       "name": "💢Libvio",
       "type": 3,
@@ -445,7 +439,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "http://127.0.0.1:9978/file/TVBox/jar/alitoken.txtp"
+      "ext": "http://127.0.0.1:9978/file/TVBox/jar/alitoken.txt"
     },
     {
       "key": "csp_Upyunso",
@@ -505,7 +499,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "8f0b3f0dc1834f309f077ea5549e99a8"
+      "ext": "http://127.0.0.1:9978/file/TVBox/jar/alitoken.txt"
     },
     {
       "key": "csp_Bili合集",

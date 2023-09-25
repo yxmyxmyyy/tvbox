@@ -1,5 +1,5 @@
 {
-    "spider" : "clan://TVBox/jar/xzy1029.jar",
+    "spider" : "http://itvbox.cc/sft/jar/xzy1029.jar;md5;5a3a30123ac5eb236aa3e96a7669442f",
     "wallpaper" : "https://api.ixiaowai.cn/gqapi/gqapi.php",
     "lives" : [
             {
@@ -17,16 +17,6 @@
             "name" : "🌤酷云七七",
             "type" : 3,
             "api" : "csp_Kunyu77",
-            "searchable" : 1,
-            "quickSearch" : 1,
-            "filterable" : 1
-        },
-    
-            {
-            "key" : "小苹果",
-            "name" : "🍎小苹果",
-            "type" : 3,
-            "api" : "csp_LiteApple",
             "searchable" : 1,
             "quickSearch" : 1,
             "filterable" : 1

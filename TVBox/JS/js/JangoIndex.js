@@ -1,10 +1,11 @@
 var rule = {
 	title:'JangoIndex',
-	host:'https://jango-index.ml',
+	// host:'https://jango-index.ml',
+	host:'https://jango-index.tk',
 	url: 'fyclass',
 	searchUrl: '/?search=**',
 	searchable:2,
-	quickSearch:0,
+	quickSearch:1,
 	filterable:0,
 	headers:{
 		'User-Agent': 'MOBILE_UA'
