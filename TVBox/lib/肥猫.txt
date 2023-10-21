@@ -24,6 +24,19 @@
       "filterable": 1
     },
     {
+      "key": "Aid",
+      "name": "🚑┃急救┃教学",
+      "type": 3,
+      "api": "csp_FirstAid",
+      "searchable": 0,
+      "quickSearch": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 3.8
+      },
+      "gridview": "0-0-4.1"
+    },
+    {
       "key": "alist",
       "name": "🍰┃小鸭┃网盘",
       "type": 3,
@@ -31,17 +44,22 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://alist.xn--z7x900a.love:63/alist.json"
+      "ext":"http://alist.xn--z7x900a.love:63/alist.json"
+    },
+    {
+      "key": "YGP",
+      "name": "🚀┃叨观┃荐影",
+      "type": 3,
+      "api": "csp_YGP",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "荐片",
       "name": "🎬┃荐片┃影视",
       "type": 3,
-      "api": "http://alist.xn--z7x900a.love:63/ddrpy2.m.js",
-      "ext": "http://alist.xn--z7x900a.love:63/荐片.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "api": "https://agit.ai/fantaiying/fty/raw/branch/master/JS/drpy1.min.js",
+      "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/JS/js/jp.js"
     },
     {
       "key": "磁力熊",
@@ -54,19 +72,65 @@
       "filterable": 1
     },
     {
-      "key": "素白",
-      "name": "🦢┃素白┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "http://我不是.肥猫.love:63/json/素白白.json"
+    "key": "素白",
+    "name": "🦢┃素白┃影视",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "ext": "http://我不是.肥猫.love:63/json/素白白.json"
     },
     {
-      "key": "虎虎",
-      "name": "🐯┃虎虎┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "http://我不是.肥猫.love:63/json/虎虎.json"
-    },
+    "key": "虎虎",
+    "name": "🐯┃虎虎┃影视",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "ext": "http://我不是.肥猫.love:63/json/虎虎.json"
+    },  
+{
+   "key": "熊猫",
+   "name": "🐼｜熊猫｜影视",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "ext": {
+      "简介": "<p>&&</p>",
+      "主演": "主演：class=\"module-info-item-title\">&&</span>",
+      "导演": "导演：&&</span>",
+      "影片年代": "年份：&&</li>",
+      "影片地区": "地区：&&</li>",
+      "影片类型": "类型：&&</li>",
+      "影片状态": "更新：&&</span>",
+      "数组": "<a&&</div></div></a>",
+      "标题": "title=\"&&\"",
+      "图片": "data-original=\"&&\"",
+      "链接": "href=\"&&\"",
+      "副标题": "<div class=\"module-item-note\">&&</div>",
+      "线路数组": "data-dropdown-value=&&</div>[排序:索尼>快看]",
+      "线路标题": "<span>&&</small>[替换:</span><small>>>🐼共]+集",
+      "播放数组": "<div class=\"module-play-list\">&&</div>",
+      "播放标题": "<span>&&</span>",
+      "播放列表": "<a&&</a>",
+      "播放链接": "href=\"&&\"",
+      "分类": "电影&电视剧&综艺&动漫",
+      "分类值": "52&69&77&75",
+      "分类url": "https://xmvod520.com/index.php/vod/show/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html"
+   }
+},
+{    "key": "蜗牛弹幕",
+                "name": "🐌｜蜗牛｜影视",
+                "type": 3,
+                "api": "csp_XBPQ",
+                "ext": {
+ "简介":"class=\"video-info-item video-info-content vod_content\">&&</span>",               
+ "数组":"class=\"module-item-text\"&&class=\"loading\"",
+  "线路数组":"data-dropdown-value=&&</div>",
+   "线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",        
+ "副标题":" class=\"module-item-text\">&&</div>",   
+ "分类":"电影$1#日韩剧$21#海外剧$2#动漫$20",   
+    "分类url":"https://v.wuxivlog.cn/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html"   
+        }
+        },
+
+{"key":"快帆","name":"⛵┃快帆┃影视","type":1,"api":"https://api.kuaifan.tv/api.php/provide/vod","categories":["国产剧","香港剧","台湾剧","韩国剧","日本剧","欧美剧","动作片","动画片","短片","喜剧片","爱情片","科幻片","古装片","历史片","大陆综艺","港台综艺","日韩综艺","国产动漫","欧美动漫","日本动漫"]},
+
     {
       "key": "YQK_spider",
       "name": "🙆┃一起┃电视",
@@ -78,6 +142,16 @@
       "playerType": 2,
       "ext": "https://hk-api-cf.yqk5659.com"
     },
+    {
+			"key": "益达影视",
+			"name": "🌝┃益达┃影视",
+			"type": 3,
+			"api": "csp_AppYsV2",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "https://myd666.tv/lvdou_api.php/v1.vod"
+		},
     {
       "key": "七七",
       "name": "🌈┃七七┃影视",
@@ -97,12 +171,6 @@
       "filterable": 0
     },
     {
-      "key": "爱看Bot",
-      "name": "🏇┃爱看┃Bot",
-      "type": 3,
-      "api": "http://alist.xn--z7x900a.love:63/Bot.js"
-    },
-    {
       "key": "厂长",
       "name": "🏭┃厂长┃影视",
       "type": 3,
@@ -111,7 +179,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 2,
-      "ext": "https://cz01.me/"
+      "ext": "https://cz01.cc/"
     },
     {
       "key": "csp_FanYY",
@@ -134,11 +202,11 @@
     },
     {
       "key": "奇奇",
-      "name": "🐭┃奇奇┃影视",
+      "name": "🐭┃迷迷┃影视",
       "type": 3,
       "api": "csp_AppYsV2",
       "playerType": "2",
-      "ext": "https://ttsp.live/api.php/app/",
+      "ext": "http://www.miniku.cc/xgapp.php/v1/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -164,27 +232,16 @@
       "filterable": 1
     },
     {
-      "key": "飞速",
-      "name": "🚄┃影探┃影视",
-      "type": 3,
-      "api": "csp_YTVIP",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "vvvwvwvvwwvwvvvwvvwwvvvwwwwvvvvwvvvwwvvvwwwvvwvwvvwvvvvw.lyyytv.cn"
-    },
-    {
-      "key": "辣辣",
-      "name": "🌶️┃辣辣┃影视",
-      "type": 3,
-      "api": "csp_AppYs",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://www.miniku.cc/xgapp.php/v2/",
-      "jar": "http://我不是.肥猫.love:63/Jar/5.jar;md5;c570b052645834a1109b54421c1552f9"
-    },
-    {
+        "key": "飞速",
+        "name": "🚄┃影探┃影视",
+        "type": 3,
+        "api": "csp_YTVIP",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "vip.lyyytv.cn"
+    },  
+    /*{
       "key": "蘑菇",
       "name": "🍄┃蘑菇┃影视",
       "type": 3,
@@ -193,7 +250,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "http://我不是.肥猫.love:63/json/蘑菇.json"
-    },
+    },*/
     {
       "key": "csp_Lib",
       "name": "💫┃Lib  ┃影视",
@@ -205,7 +262,7 @@
       "playerType": 2,
       "ext": "https://www.libvio.fun/"
     },
-    {
+    /*{
       "key": "csp_Auete",
       "name": "🏝┃Aue ┃影视",
       "type": 3,
@@ -213,7 +270,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
+    },*/
     {
       "key": "鸭鸭",
       "name": "🦆┃鸭鸭┃影视",
@@ -287,7 +344,7 @@
       "quickSearch": 1,
       "filterable": 1
     },
-    {
+    /*{
       "key": "csp_XBiuCOKEMV",
       "name": "🍬┃可乐┃影视",
       "type": 3,
@@ -296,7 +353,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 2
-    },
+    },*/
     {
       "key": "csp_search_七夜",
       "name": "👴┃七夜┃搜索",
@@ -388,7 +445,7 @@
       "quickSearch": 0,
       "ext": "http://我不是.肥猫.love:63/json/ych.json"
     },
-    {
+    /*{
       "key": "js虎牙",
       "name": "🐅┃虎牙┃直播",
       "type": 3,
@@ -434,7 +491,7 @@
       "type": 3,
       "api": "http://alist.xn--z7x900a.love:63/ddrpy2.m.js",
       "ext": "http://alist.xn--z7x900a.love:63/JRKAN直播.js"
-    },
+    },*/
     {
       "key": "csp_XYQBiu_聚合短视频",
       "name": "📽️┃视频┃聚合",
@@ -445,7 +502,7 @@
       "filterable": 0,
       "ext": "http://我不是.肥猫.love:63/json/短视频.json"
     },
-    {
+   /* {
       "key": "drpy_js_有声小说吧",
       "name": "📻┃有声┃小说",
       "type": 3,
@@ -458,7 +515,7 @@
       "type": 3,
       "api": "http://alist.xn--z7x900a.love:63/ddrpy2.m.js",
       "ext": "http://alist.xn--z7x900a.love:63/蜻蜓FM.js"
-    },
+    },*/
     {
       "key": "csp_Nbys",
       "name": "✈┃泥巴┃墙外",
@@ -548,7 +605,7 @@
     },
     {
       "key": "ext_live_protocol",
-      "name": "关注公众号“肥猫不肥”",
+      "name": "关注公众号“肥猫宝贝”",
       "type": 3,
       "api": "http://alist.xn--z7x900a.love:63/协议.js",
       "ext": "clan://proxy?sourcekey=ext_live_protocol"
@@ -887,6 +944,5 @@
   ],
 "ads": ["wan.51img1.com","iqiyi.hbuioo.com", "vip.ffzyad.com","https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd"],
   "wallpaper": "http://我不是.肥猫.love:63/pic/feimao.php",
-  "warningText": "接口完全免费，切勿付费购买。",
   "spider":"clan://TVBox/jar/fm.jar"
 }

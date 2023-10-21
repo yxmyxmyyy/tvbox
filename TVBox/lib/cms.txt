@@ -13,8 +13,36 @@
 {"key":"玩偶","name":"☦️玩偶|T4","type":4,"api":"http://home.jundie.top:9520/spider/csp_Wogg?sort=超清,原画,蓝光,高清","searchable":1,"quickSearch":1,"filterable":1,"ext":"clan://TVBox/jar/alitoken.txt"},
 {"key":"荐片","name":"☦️荐片|T4","type":4,"api":"http://home.jundie.top:9520/spider/csp_JP","searchable":1,"quickSearch":1,"filterable":1},
 
+{"key":"索尼","name":"📺索尼(CJ)","type":1,"api":"https://suoniapi.com/api.php/provide/vod","changeable":1,"searchable":1,"quickSearch":1,"filterable":1,"timeout":60,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","欧美剧","韩剧","日剧","港剧","台剧","海外剧","大陆综艺","国产动漫"]},
+{"key":"快帆","name":"📬快帆","type":1,"api":"https://api.kuaifan.tv/api.php/provide/vod","categories":["国产剧","香港剧","台湾剧","韩国剧","日本剧","欧美剧","动作片","动画片","短片","喜剧片","爱情片","科幻片","古装片","历史片","大陆综艺","港台综艺","日韩综艺","国产动漫","欧美动漫","日本动漫"]},
+{"key": "xml_大漠","name":"🌎大漠☆资源","type":1,"api":"https://damozy.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable": 1,"categories":["热门短剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","悬疑片","犯罪篇","奇幻片","冒险片","纪录片","伦理片","国产剧","香港剧","台湾剧","韩国剧","日本剧","美国剧","泰剧","动画片","国产动漫","日韩动漫","欧美动漫","大陆综艺","港台综艺","日韩综艺","欧美综艺"]},
+{"key": "jszy","name": "☸️极速资源","type": 1,"api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"categories": ["内地剧","动画片","大陆综艺"]},
+{"key": "cjszy","name": "超极速资源","type": 1,"api": "https://api.apilyzy.com/api.php/provide/vod/","style":{ "type":"oval","ratio": 0.75},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1},
 
-
+{
+      "key": "csp_xml_路人甲",
+      "name": "👣路人甲┃影视",
+      "type": 1,
+      "api": "http://dytt996.com/api.php/provide/vod",
+      "playUrl": "https://dx.maclsj.com/players/index.php?url=",            
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+      "电影","连续剧","短剧视频","海外剧","综艺","动漫"
+      ]
+    },
+    {
+      "key": "csp_追剧达人",
+      "name": "📽️达人┃BPQ",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "站名":"追剧达人",
+        "主页url":"https://www.teknowebs.com/",
+        "分类":"电影$1#电视剧$2#综艺$3#动漫$4#豆瓣电影Top250$42",
+        "分类url":"https://www.teknowebs.com/tevodshow/{cateId}-{area}-------{catePg}---{year}.html"
+      }},
 {
       "key": "天天美剧网（APP）",
       "name": "天天美剧网（APP）",
@@ -176,6 +204,12 @@
       "api": "csp_AppYsV2",
       "ext": "https://www.tvkuys.xyz/api.php/app/"
    },
+{"key": "1080b","name": "🗃1080P🅱️","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://154.12.90.7:85/api.php/app/"},
+{"key": "1080c","name": "🗃1080P↪️","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://tv.iptv.ski/api.php/app/"},
+{"key": "me_qq","name": "🗃4KHDR🅱️","type": 1,"api": "http://154.12.90.7:90/uploads/itvbox/qq.php","searchable": 1,"quickSearch": 1},
+{"key": "MX","name": "🗃4KHDR☪️","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://154.12.90.7:86/api.php/app/"},
+{"key": "yc","name": "🗃4KHDR↩️","type": 3,"playerType": 1,"api": "csp_Hdhive","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://pan.shangui.cc/f/p5RUL/tk.php","jar": "https://jihulab.com/ymz1231/jar/-/raw/main/xry.jar"},
+
 {"key":"星影1080cms","name":"🕍星影1080","type":1,"api":"https://www.xy1080.net/api.php/provide/vod","searchable":1,"quickSearch":1},
 //{"key": "modu","name": "🏭魔都资源 ","type": 1,"api": "https://www.moduzy.com/api.php/provide/vod/?ac=list","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1},
 {"key":"酷酷","name":"🩳酷酷APP","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.tvkuys.xyz/api.php/app/"},
