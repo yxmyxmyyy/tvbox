@@ -1,2 +1,6 @@
 clan://
 http://gh.acgame.eu.org/https://raw.githubusercontent.com/yxmyxmyyy/tvbox/main/
+
+
+http://127.0.0.1:9978/file/TVBox/jar/alitoken.txt
+http://gh.acgame.eu.org/https://raw.githubusercontent.com/yxmyxmyyy/tvbox/main/token.txt
