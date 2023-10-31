@@ -2,7 +2,7 @@
 //Q群：235436873
 
 {
-	"spider": "http://itvbox.cc/sft/jar/YSC0816.jar;md5;339688f28fce80e22fcf8d6d333ea581",
+	"spider": "http://itvbox.cc/sft/jar/ysc0914.jar;md5;a05b457eb0cd2304a934df923620dee7",
 	"wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
 	"lives": [{
 		    "name": "live",

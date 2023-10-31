@@ -16,7 +16,6 @@
     "homeContent":"1",
     //首页推荐数据获取链接
     "rcmed_url": "https://vidhub.tv",
-    //地址发布页：https://vidhub.link
     //首页列表数组截取。
     "home_arr_rule": "body&&.module-items",
     //首页片单列表数组定位。
@@ -109,7 +108,7 @@
     //线路截取数组
     "tab_arr_rule": ".module-tab-items&&.module-tab-item",
     //线路标题，截取前缀&&截取后缀
-    "tab_title": "Text[替换:主选四=>暴风||主选五=>飞云||主选二=>量子||主选三=>非凡||优选四=>腾讯云][排序:主选五,优选四,主选四,官解,主选二,主选三]",
+    "tab_title": "Text",
     
     //列表数组截取，必须
     "list_arr_rule": "body&&.module-player-list",

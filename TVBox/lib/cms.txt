@@ -18,7 +18,7 @@
 {"key": "xml_大漠","name":"🌎大漠☆资源","type":1,"api":"https://damozy.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable": 1,"categories":["热门短剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","悬疑片","犯罪篇","奇幻片","冒险片","纪录片","伦理片","国产剧","香港剧","台湾剧","韩国剧","日本剧","美国剧","泰剧","动画片","国产动漫","日韩动漫","欧美动漫","大陆综艺","港台综艺","日韩综艺","欧美综艺"]},
 {"key": "jszy","name": "☸️极速资源","type": 1,"api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"categories": ["内地剧","动画片","大陆综艺"]},
 {"key": "cjszy","name": "超极速资源","type": 1,"api": "https://api.apilyzy.com/api.php/provide/vod/","style":{ "type":"oval","ratio": 0.75},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1},
-
+{"key": "yqkan_open","name": "影视|一起看","type": 3,"api": "csp_YQKan","searchable": 1,"quickSearch": 1,"filterable": 0,"jar":"https://ghproxy.com/raw.githubusercontent.com/zalman2022/MySpider/main/jar/OpenSpider.jar"},
 {
       "key": "csp_xml_路人甲",
       "name": "👣路人甲┃影视",

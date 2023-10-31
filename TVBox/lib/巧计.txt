@@ -1,5 +1,5 @@
 {
-  "spider": "http://itvbox.cc/sft/jar/qj0804.jar;md5;f71431362b88ce020d9854eb9166841b",
+  "spider": "http://cdn.qiaoji8.com/fix1013.jar;md5;212ae2160fca381354834fd22150b8a3",
   "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
   "lives": [
     {
@@ -15,6 +15,52 @@
     }
   ],
   "sites": [
+
+    {
+      "key": "喵喵影视",
+      "name": "喵喵影视",
+      "type": 3,
+      "api": "csp_Appto",
+      "playerType": 2,
+      "ext": "XRZspkas5l6NsZJWpEURh6BqKRxqCIw3QY+Bj3/9Gbahdt/I/fP2xq6LIBnrWE8xh45v/vHcmXllR1G9Po2b5t7Z8VyUowvfHsXJA/bkW7XAzegsRcxq8ZqYgUtJTGeh4UtuRrbaaKK5cL96vwgHLQ9hOn8jppN5pZgJ3ZsWQuocwI45MZOaQqi7aNyJmi0PxTt07Djk0kqVoxoHrNGjT2BH7H4K65HXLRMWhyrWswhbnSciFfwjen91iAeJaMuwqQEWSRhShJWb6WTtjXghM8JBksS0432c31evYyFEEq5yiCHTpSm35nFsLmwiI2Q0F20FTMvOA8xIKqGyazVjCVUN3gc0LDqnLWBLFdxsJHh6asndaxPCn7UitiRVuW0Ans3FzhINr5QayshrUtqJHan9h7ItRlx8XkvCh83eWkuRoGBiPC4X/mcbrawRwOM04jIRiRhJl9Dit+b5Rw35Ugvd8qzARtaLkecNFS54zX1UfVJecKBrqSyl0dx8pk2EyG1vZZ0NnnZ2JMuBvywc0gxO45mAnyMM46+igcv76u4DkqA0wFVKHtLXu5TNbOZOfLnnMChe0PdbnQva25mMHgtHYHfZbYlldh6fPdMOidoaiyg+Yd/n1xgoo16k9zclT+ioH6OBrsKG2GYlFVFxLI4bwm+v6zk237jlWXg5bj4Q="
+    },
+    {
+      "key": "布蕾影视",
+      "name": "布蕾影视",
+      "type": 3,
+      "api": "csp_Appto",
+      "playerType": 2,
+      "ext": "WORXxxNkZ/qIm9P8Q2CsQoHSoD56ZMjPXTU1XhPjBeTgzFGjCvpUyPqE5Y6dWiwsSE/vPkW5b5oKcPiZVQlCfWmB6remhL7Xulwt9IU0jcZWpgqVp4RlS9Gi2C93UCL4i0XMpJFs0RIuS38ZfeBZcdLUOpBR+7XyE/MH6biUdL5TcOBRw+7DiK6M3KAckWDoWEn3Jc6WSCvUb+h6tHJPAoh6l8+fmTJZc+R+M4vRLjSmxS7LuK1PSBEwrh9Qaw+DEQPLSzq0fZPCR5BKmkV0YZnpys/ds+JBC0AS/bRNU9RYTOANYj4Im9cOnoy0Qsl1wwycAQ3PVkDCYbNaRQhUgCb/epnIgxjuqwTqWZPByZbOSA0COoCzA6K6MCUftxSJAKaMCOsUuWuorH9qSIMmQ6IFvQr+4JhTrtpZvF3aU2HWDDgCJZxRTS4jnRhYvgwUEQ0JZlUzinPnaPP/8oCwl+OM2qsNXAYoGCReqFrX0iMZbPs2BNcTjACIo8WAEQJiZgfl1FYOVnc4vnq4W0bT37mSqssct47Ri29fzaiQS9LizQEUZs3Fq3l0V1u71z9SnRW66v/IgNXQWyHFp4Y8p6BY9YmDj0OwK1TrzyMkD5yDz354kF4LMCm1NfV69DGIDhMX9m2+tmbHiQIwiMCL+DYWOSzSVb9M4tJOvQgO+5L2zYiuXc+7Q38GmNW6V400Nw/e+4sCX/uP/Fh4QnwarO2dN64WuSgUlLeDItGd4PcM86KlXRDWxt7hvJQ/TQWE/cRO726YUDeAqAOeoGQuRGiViHDrDqWF1OpSJxzpX/Re6CgYYFb5aulcJBDcoapdkpNAE1Ub3uynJpQl9N97cwtPJa0KOGMlho4pjPU3eVuNlWmFUwLBpH59v6EOO5l0a0Ds1du+GDhiCdaOZyinMTS1H4ft7mFxVZjN/xS1iSt/lYZGyDwhwqFyUHCRvCBLXNEq4iD/FW5zu78v1ktWaNilXePWcih5Sf50Laob5Fl6URRDBvRg9xGQiUsWWSAOFJ2yWAwOn5VY6Xrs8wxhbefROlbVilFdVQ3xlQEoaCNL8UA6WGpib+av4k+JGkA0FssuXJH+YAw2wRGCnvenLf/n5oRY9UKWfx2Oo6gMicFPRUEo7k1oyYPN5DalAMG9+bqnGmoxRd2P+sLVodbtJ+IpQh3dGYcd479mjLSrJVbpbSwcDekLNn0ulABDXM+0UEoec/uSBLB+eaYUh6XgCzSredKyBDaSrr6gy1EcekfmHez0Q4k0JoWl3EqKpkLyoevW9rBpTgNsBXcx4jvpIejDmJMzXGdPVdTP8SS50PQceGczP4+VAkD0NKa9SKHZLGf5Q4pKqd4+NI902VSow5g=="
+    },
+    {
+      "key": "yqikan",
+      "name": "一起看",
+      "type": 3,
+      "api": "csp_YQKAPP",
+      "ext": "https://api-aws.ctdy.cc"
+    },
+    {
+      "key": "JianPian",
+      "name": "荐片[边下边播]",
+      "type": 3,
+      "api": "csp_JianPian"
+    },
+    {
+      "key": "Dygang",
+      "name": "电影港[边下边播]",
+      "type": 3,
+      "api": "csp_Dygang"
+    },
+    {
+      "key": "米酷视频",
+      "name": "米酷视频",
+      "type": 3,
+      "api": "csp_DDMJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "http://43.248.129.116:6688"
+    },
     {
       "key": "蚂蚁视频",
       "name": "蚂蚁视频",
@@ -23,7 +69,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "http://www.rzys.cc"
+      "ext": "http://rzys.xyz"
     },
     {
       "key": "看看视频",
@@ -49,26 +95,7 @@
       "name": "EMO蓝光",
       "type": 3,
       "api": "csp_AppYsV2",
-      "ext": "http://one2.emofun.top/mogai_api.php/v1.vod"
-    },
-    {
-      "key": "油果视频",
-      "name": "油果视频",
-      "type": 3,
-      "api": "csp_Youguo",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "影视王朝",
-      "name": "影视王朝",
-      "type": 3,
-      "api": "csp_Yswc",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": ""
+      "ext": "http://one3.emofun.top/mogai_api.php/v1.vod"
     },
     {
       "key": "时常影视",
@@ -81,16 +108,6 @@
       "ext": ""
     },
     {
-      "key": "YQK_spider",
-      "name": "一起看TV",
-      "api": "csp_YQKAPP",
-      "type": 3,
-      "filterable": 1,
-      "quickSearch": 1,
-      "searchable": 1,
-      "ext": "https://api-aws.11ty.top"
-    },
-    {
       "key": "HDMOLI",
       "name": "HDMOLI",
       "api": "csp_HDMOLI",
@@ -101,7 +118,7 @@
       "ext": ""
     },
     {
-      "key": "NoSearch_Bdys_spider",
+      "key": "Bdys_spider",
       "name": "哔滴影视",
       "api": "csp_Bdys01",
       "type": 3,
@@ -153,15 +170,6 @@
       "filterable": 1
     },
     {
-      "key": "csp_77",
-      "name": "酷云七七",
-      "type": 3,
-      "api": "csp_Kunyu77",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "360_spider",
       "name": "360影视",
       "api": "csp_SP360",
@@ -192,31 +200,12 @@
       "filterable": 0
     },
     {
-      "key": "csp_LibVio",
-      "name": "LibVio",
-      "type": 3,
-      "api": "csp_Lib",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "csp_Auete",
       "name": "Auete",
       "type": 3,
       "api": "csp_Auete",
       "searchable": 1,
       "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_Cokemv",
-      "name": "Cokemv",
-      "type": 3,
-      "api": "csp_Cokemv",
-      "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
@@ -248,7 +237,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://www.qiaoji8.com/jar1/token.txt"
+      "ext": "http://127.0.0.1:9978/file/TVBox/jar/alitoken.txt"
     },
     {
       "key": "Music_spider",
@@ -266,11 +255,6 @@
       "name": "解析聚合",
       "type": 3,
       "url": "Demo"
-    },
-    {
-      "name": "Json并发",
-      "type": 2,
-      "url": "Parallel"
     },
     {
       "name": "Json轮询",
@@ -308,22 +292,44 @@
   "flags": [
     "youku",
     "qq",
+    "QQ",
     "iqiyi",
+    "qiqi",
     "qiyi",
     "letv",
     "sohu",
     "tudou",
     "pptv",
+    "PPTV",
     "mgtv",
+    "ltnb",
+    "rx",
+    "SLYS4k",
+    "BYGA",
+    "luanzi",
+    "dxzy",
+    "QEYSS",
+    "aliyun",
+    "AliS",
+    "122",
+    "chuangying",
+    "CL4K",
+    "xfyun",
+    "wuduzy",
     "wasu",
     "bilibili",
     "renrenmi",
-    "duoduozy",
-    "xinluan",
-    "ddzy",
-    "tgqp",
-    "tkqp",
-    "XRJX"
+    "ppayun",
+    "haiwaikan",
+    "cool",
+    "dbm3u8",
+    "xmm",
+    "xigua",
+    "m1905",
+    "funshion",
+    "imgo",
+    "ruyi1080",
+    "ruyib1080"
   ],
   "ijk": [
     {

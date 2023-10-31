@@ -78,4 +78,58 @@
     //搜索片单链接补后缀，这个一般json搜索的需要
     "search_suffix": ".html",
     
-    //片单链接是否直接播放，0否，1分类片单链�
+    //片单链接是否直接播放，0否，1分类片单链接直接播放，2详情选集链接直接播放。
+    //设置成直接播放后，后面3个参数请注意该留空的请务必留空。
+    "force_play": "0",
+    //直接播放链接补前缀
+    "play_prefix": "https://live.52sf.ga/huya/",
+    //直接播放链接补后缀，设置为#isVideo=true#可强制识别为视频链接
+    "play_suffix": "#isVideo=true#",
+    //直接播放链接设置请求头，只对直链视频有效，每一组用#分开
+    "play_header": "authority$ku.peizq.online#Referer$https://play.peizq.online",
+    
+    //项目信息jsoup与xb截取写法切换，1为jsoup写法(默认)，0为xb写法
+    "proj_is_jsoup":"0",
+    //类型数据，截取前缀&&截取后缀
+    "proj_cate": "",
+    //年代数据，截取前缀&&截取后缀
+    "proj_year": "",
+    //地区数据，截取前缀&&截取后缀
+    "proj_area": "",
+    //演员数据，截取前缀&&截取后缀
+    "proj_actor": "class=\"data\">主演：&&</p>",
+    //简介内容，截取前缀&&截取后&&缀
+    "proj_plot": "简介：</span>&&</p>",
+    
+    //线路截取区域，如果不需要请把tab_title或tab_arr_rule置空或者全部不要填。
+    //线路截取数组
+    "tab_arr_rule": ".nav&&li",
+    //线路标题，截取前缀&&截取后缀
+    "tab_title": "a&&Text",
+    
+    //列表数组截取，必须
+    "list_arr_rule": "body&&.stui-content__playlist",
+    //集数数组截取，必须
+    "epi_arr_rule": "li",
+    //集数标题，截取前缀&&截取后缀
+    "epi_title": "a&&Text",
+    //集数链接，截取前缀&&截取后缀
+    "epi_url": "a&&href",
+    //选集是否反转显示
+    "epi_reverse": "0",
+    //集数链接补前缀
+    "epiurl_prefix": "https://yszj.tv",
+    //集数链接补后缀
+    "epiurl_suffix": "",
+    
+    //下面几个参数请勿乱用。否则可能会有副作用。
+    //分析网页源码中有<script type="text/javascript">var player_aaaa={"flag":"play","encrypt这种源码的链接解析
+    //如果网页源码里没有这种请设置为0
+    "Anal_MacPlayer":"0",
+    //是否开启手动嗅探，只对网页嗅探有效，0否，1是
+    "ManualSniffer":"0",
+    //手动嗅探视频链接关键字，每个用#隔开
+    "VideoFormat":".mp4#.m3u8#.flv",
+    //手动嗅探视频链接过滤关键词,每个用#隔开
+    "VideoFilter":".html#=http"
+}

@@ -44,19 +44,8 @@
        "filterable" : 1,
        "jar": "http://itvbox.cc/sft/jar/xzy1029.jar;md5;5a3a30123ac5eb236aa3e96a7669442f"
     },
-    {
-      "key": "csp_Alist",
-      "name": "Alist(SP)",
-      "type": 3,
-      "api": "csp_Alist",
-      "searchable": 0,
-      "playerType": 2,
-      "jar":"http://itvbox.cc/sft/jar/xzy1029.jar;md5;5a3a30123ac5eb236aa3e96a7669442f",
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "clan://TVBox/Bilibili/Alist.json"
-    },
-  {"key": "csp_AppMr","name": "明明影视","type": 3,"api": "csp_AppMr","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"clan://TVBox/jar/fm.jar"},
+    {"key": "csp_Alist1","name": "Alist(sp)","type": 3, "api": "csp_AList","searchable": 1, "filterable": 1,"ext":"clan://TVBox/Bilibili/Alist1.json","jar":"clan://TVBox/jar/fm.jar"},
+  {"key":"爱迪","name":"爱迪影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://aidiapp.xyz/xgapp.php/v2/"},
     {
       "key": "csp_xBPQ_DOUYIN",
       "name": "短视频",
@@ -81,7 +70,7 @@
       "ext": " https://www.libvio.me/type/{cateId}-{catePg}.html"
     },
 {"key":"csp_Auete","name":"奥特影视(SP)","type":3,"api":"csp_Auete","searchable":1,"quickSearch":1,"filterable":1,"jar":"clan://TVBox/jar/fm.jar"},
-{"key": "csp_XYQHiker_双十电影", "name": "双十电影(H)","type": 3, "api": "csp_XYQHiker","searchable": 1, "quickSearch": 1,"filterable": 1,"ext": "clan://TVBox/Hk/XYQHiker/双十电影.json","jar":"clan://TVBox/Hk/Hk.jar"},
+{"key": "csp_XYQHiker_短剧网", "name": "短剧网(H)","type": 3, "api": "csp_XYQHiker","searchable": 1, "quickSearch": 1,"filterable": 1,"ext": "clan://TVBox/Hk/XYQHiker/短剧网.json","jar":"clan://TVBox/Hk/Hk.jar"},
     {
       "key": "csp_xb_ysgc",
       "name": "影视工厂(XBiu)",
